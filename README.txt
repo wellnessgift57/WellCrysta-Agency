@@ -1,4 +1,4 @@
-WELLCRYSTA WEBSITE — SETUP GUIDE (v3)
+WELLCRYSTA WEBSITE — SETUP GUIDE (v3.3)
 =====================================
 
 WHAT'S INSIDE (all links are relative — keep this folder structure)
@@ -15,9 +15,8 @@ HOW TO EDIT
   The site header, footer and WhatsApp number repeat on every page, so use Find & Replace across all 5 .html files.
 
 STEP 1 — REPLACE PLACEHOLDERS (Find & Replace in all .html files)
-  Phone, WhatsApp and email are already set (+91 90826 30433, wellnessgift57@gmail.com)
+  Phone, WhatsApp and email are already set (+91 8668451783, wellnessgift57@gmail.com)
   "https://wellcrysta.com"          -> your final domain (canonical links, sitemap, structured data)
-  "YOUR_WEB3FORMS_ACCESS_KEY"       -> contact.html + consultation.html (key from web3forms.com; enquiries go to your Gmail)
   "GTM-XXXXXXX"                     -> your Google Tag Manager ID (appears in the <html> tag of every page)
 
 STEP 2 — PUBLISH
@@ -36,7 +35,19 @@ TRACKING (GTM dataLayer events already built in)
   generate_lead (param: form_name = contact | consultation) — fires only on successful submit
   GTM loads on first scroll/tap or after 5 seconds, so it does not slow the first paint.
 
-CHANGES IN THIS VERSION (v3.1: Home "What we do" heading now reads "Growth performance digital marketing services")
+CHANGES IN v3.3
+  Forms: on submit, WhatsApp opens with the filled details to +91 8668451783 (customer taps Send),
+  and a copy is also emailed to wellnessgift57@gmail.com via FormSubmit (backup).
+CHANGES IN v3.2
+  Phone/WhatsApp changed to +91 8668451783 on every page and in search-engine data
+  Forms now send to wellnessgift57@gmail.com via FormSubmit (no access key needed).
+    FIRST TIME ONLY: submit the form once on the live site, open the "Activate Form" email
+    from FormSubmit in Gmail and click Activate. Every enquiry after that arrives in Gmail.
+  Consultation form: only Full name, Business name, Phone/WhatsApp, Business type, Meeting mode (+ consent tick)
+  "supporting partner" -> "partner" everywhere
+  Home: "Who we help" section removed; FAQ "Which areas do you serve?" -> "We work with businesses across India."
+  Footer: "Performance & growth marketing agency in India"
+CHANGES IN v3.1 (: Home "What we do" heading now reads "Growth performance digital marketing services")
 
 CHANGES IN v3
   Contact:  office location, working hours and map removed (also removed from footer and search-engine data)
