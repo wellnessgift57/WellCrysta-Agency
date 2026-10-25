@@ -1,4 +1,4 @@
-WELLCRYSTA WEBSITE — SETUP GUIDE (v3.3)
+WELLCRYSTA WEBSITE — SETUP GUIDE (v3.4)
 =====================================
 
 WHAT'S INSIDE (all links are relative — keep this folder structure)
@@ -35,6 +35,9 @@ TRACKING (GTM dataLayer events already built in)
   generate_lead (param: form_name = contact | consultation) — fires only on successful submit
   GTM loads on first scroll/tap or after 5 seconds, so it does not slow the first paint.
 
+CHANGES IN v3.4
+  Forms: WhatsApp only. On submit, WhatsApp opens with the filled details to +91 8668451783;
+  the customer taps Send. No email copy, no FormSubmit activation needed.
 CHANGES IN v3.3
   Forms: on submit, WhatsApp opens with the filled details to +91 8668451783 (customer taps Send),
   and a copy is also emailed to wellnessgift57@gmail.com via FormSubmit (backup).
